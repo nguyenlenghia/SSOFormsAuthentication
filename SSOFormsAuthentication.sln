@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOFormsAuthentication.Sso", "SSOFormsAuthentication.Sso\SSOFormsAuthentication.Sso.csproj", "{5DBAD2F1-6B1C-43C2-A1DF-1AEAF006DCB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSOFormsAuthentication.Website1", "SSOFormsAuthentication.Website1\SSOFormsAuthentication.Website1.csproj", "{E2FA8E5B-879B-4C7B-B465-948A726D8324}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DBAD2F1-6B1C-43C2-A1DF-1AEAF006DCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBAD2F1-6B1C-43C2-A1DF-1AEAF006DCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBAD2F1-6B1C-43C2-A1DF-1AEAF006DCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBAD2F1-6B1C-43C2-A1DF-1AEAF006DCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2FA8E5B-879B-4C7B-B465-948A726D8324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FA8E5B-879B-4C7B-B465-948A726D8324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FA8E5B-879B-4C7B-B465-948A726D8324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FA8E5B-879B-4C7B-B465-948A726D8324}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB42C8B5-F885-4369-991C-3BC4ED25F79B}
+	EndGlobalSection
+EndGlobal

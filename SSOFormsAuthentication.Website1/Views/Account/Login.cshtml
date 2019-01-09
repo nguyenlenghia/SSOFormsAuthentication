@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Đăng nhập";
+}
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "login-form center-block" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Đăng nhập</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.Label("UserName", labelText: "Tên đăng nhập", htmlAttributes: new { @class = "col-sm-4 control-label" })
+            <div class="col-sm-8">
+                @Html.TextBox("UserName", string.Empty, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessage("UserName", "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Password", labelText: "Mật khẩu", htmlAttributes: new { @class = "col-sm-4 control-label" })
+            <div class="col-sm-8">
+                @Html.Password("Password", string.Empty, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessage("Password", "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-4 col-sm-8">
+                <input type="submit" value="Đăng nhập" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @*@Scripts.Render("~/bundles/jqueryval")*@
+}
